@@ -126,6 +126,22 @@
                 "end": 333
             },
             "url": "http://localhost:3000/track-7.mp3"
+        },
+        {
+            "_id": 9,
+            "name": "Ryan Castro, Feid - Monastery (Vídeo Oficial)",
+            "album": "Ryan Castro, Feid - Monastery (Vídeo Oficial)",
+            "cover": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rollingstone.com%2Fmusic%2Fmusic-news%2Fryan-castro-drops-el-cantante-del-ghetto-album-1235018812%2F&psig=AOvVaw3Vc1-jhjgTd5ai4M0K4ueh&ust=1726081928111000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCysLOKuYgDFQAAAAAdAAAAABAE",
+            "artist": {
+                "name": "Monastery",
+                "nickname": "Monastery",
+                "nationality": "CO"
+            },
+            "duration": {
+                "start": 0,
+                "end": 354
+            },
+            "url": "http://localhost:3000/track-9.mp3"
         }
-    ]
+    ] 
 }

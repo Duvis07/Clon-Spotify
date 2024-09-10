@@ -1,5 +1,8 @@
 <div class="side-bar">
-    <div><i class="uil uil-ellipsis-h"></i></div>
+    <!-- Icono superior -->
+    <div class="icon-top"><i class="uil uil-ellipsis-h"></i></div>
+
+    <!-- Lista principal de opciones -->
     <ul class="side-bar__list list-one">
         <li [routerLink]="item.router" [queryParams]="item.query" *ngFor="let item of mainMenu.defaultOptions">
             <div class="list-wrapper-item">
@@ -8,7 +11,11 @@
             </div>
         </li>
     </ul>
+
+    <!-- Separador -->
     <div class="side-bar__separator"></div>
+
+    <!-- Segunda lista de accesos -->
     <ul class="side-bar__list list-two">
         <li *ngFor="let item of mainMenu.accessLink">
             <div class="list-wrapper-item">
@@ -17,7 +24,11 @@
             </div>
         </li>
     </ul>
+
+    <!-- Otro separador -->
     <div class="side-bar__separator line-separator"></div>
+
+    <!-- Tercera lista de opciones personalizadas -->
     <ul class="side-bar__list list-three">
         <li *ngFor="let item of customOptions">
             <div class="list-wrapper-item">
@@ -25,4 +36,10 @@
             </div>
         </li>
     </ul>
+
+    <!-- Sección de autoría -->
+    <div class="side-bar__separator line-separator"></div>
+    <div class="author">
+        <p>By Arley Botero 😎</p>
+    </div>
 </div>
